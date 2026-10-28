@@ -1,8 +1,5 @@
-import math
-
 number = input("Please input a number:  ")
-binary = [0]
-binary.remove(0)
+binary = []
 def binary_machine():
     try:
         int_number = int(number)
